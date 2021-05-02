@@ -1,0 +1,72 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin:0px;
+    font-size: 16px;
+}
+
+div{
+    border: 1px solid blue;
+}
+
+.single-grid{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.top-grid{
+    height: 50%;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+.bottom-grid{
+    display:flex;
+    height: 100%;
+}
+
+.top-yellow{
+    color:hsl(71, 73%, 54%);
+}
+
+.top-heading{
+    color:  hsl(218, 22%, 67%);
+}
+
+.bottom-right,.bottom-left{
+    width: 50%;
+    padding: 20px;
+
+}
+
+.heading{
+    color: white;
+}
+
+.price{
+    color: white;
+    font-size: 2em;
+    margin-inline-end: 10px;
+    
+}
+
+.bottom-right{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.bottom-left{
+    background-color: hsl(218, 22%, 67%);
+}
+.Item-list{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.text,.Item{
+    color:hsl(204, 43%, 93%);
+}
+
+.Signup-btn{
+background-color:  hsl(71, 73%, 54%);
+color: white;
+padding:10px 100px
+}
